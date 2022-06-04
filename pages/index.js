@@ -9,7 +9,6 @@ export default function Home() {
       <Head>
         <title>Eden | Home</title>
       </Head>
-
       <Nav />
     </React.Fragment>
   )
