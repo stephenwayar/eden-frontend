@@ -2,17 +2,21 @@ import React, { useEffect } from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav/nav'
 import Label from '../components/label/label'
+import ServiceLabel from '@components/serviceLabel/serviceLabel'
+import Carousel from '@components/carousel/caeousel'
 
 export default function Home() {
   return (
-    <React.Fragment>
-      <Head>
-        <title>Home Page</title>
-      </Head>
+    <div className='bg-white'>
+      <Head><title>Home Page</title></Head>
 
       <Label />
 
       <Nav />
-    </React.Fragment>
+
+      <ServiceLabel />
+
+      <Carousel />
+    </div>
   )
 }
