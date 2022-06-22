@@ -8,15 +8,25 @@ import Carousel from '@components/carousel/caeousel'
 export default function Home() {
   return (
     <div className='bg-white'>
-      <Head><title>Home Page</title></Head>
+      <Head>
+        <title>Home Page</title>
+      </Head>
 
-      <Label />
-
-      <Nav />
-
-      <ServiceLabel />
-
-      <Carousel />
+      <div>
+        <Label />
+      </div>
+      
+      <div>
+        <Nav />
+      </div>
+      
+      <div>
+        <ServiceLabel />
+      </div>
+      
+      <div>
+        <Carousel />
+      </div>
     </div>
   )
 }

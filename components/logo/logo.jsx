@@ -3,7 +3,7 @@ import logo from '../../public/assets/images/logo.png'
 
 export default function Logo() {
   return(
-    <div>
+    <>
       <div className="flex space-x-1">
         <Image src={logo} width={40} height={40}/>
 
@@ -11,6 +11,6 @@ export default function Logo() {
           eden
         </h1>
       </div>
-   </div>
+    </>
   )
 }

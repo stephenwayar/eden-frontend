@@ -3,7 +3,6 @@ import shipping from '../../public/assets/images/shipping.png'
 import refund from '../../public/assets/images/refund.png'
 import shield from '../../public/assets/images/shield.png'
 
-
 export default function ServiceLabel() {
   return(
     <div className="bg-[#F5F5F7] px-8 overflow-x-auto flex md:justify-center space-x-9 xl:space-x-32 py-3 text-sm text-[#4A5568] font-light">
