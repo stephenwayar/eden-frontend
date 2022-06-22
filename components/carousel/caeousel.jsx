@@ -1,3 +1,10 @@
+import Image from "next/image"
+import mensbanner from "../../public/assets/images/mens-banner.png"
+import mensbanner2 from "../../public/assets/images/mens-banner-2.jpeg"
+import womensbanner from "../../public/assets/images/womens-banner.png"
+import womensbanner2 from "../../public/assets/images/womensbanner2.png"
+import kidsbanner from "../../public/assets/images/kidsbanner.jpeg"
+
 export default function Carousel() {
   return(
     <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
@@ -22,39 +29,84 @@ export default function Carousel() {
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
       </div>
       <div className="carousel-inner relative w-full overflow-hidden">
         <div className="carousel-item active relative float-left w-full">
-          <img
-            src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-            className="block w-full"
-            alt="..."
-          />
+          <div className="w-full h-52 sm:h-72 md:h-[22rem] lg:h-[29rem] xl:h-[43rem]">
+            <Image
+              layout="fill"
+              src={mensbanner}
+              className="block"
+              alt="..."
+            />
+          </div>
+
           <div className="carousel-caption hidden md:block absolute text-center">
-            <h5 className="text-xl">First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5 className="text-xl">Wardrobe Refresh</h5>
           </div>
         </div>
         <div className="carousel-item relative float-left w-full">
-          <img
-            src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
-            className="block w-full"
-            alt="..."
-          />
+          <div className="w-full h-52 sm:h-72 md:h-[22rem] lg:h-[29rem] xl:h-[43rem]">
+            <Image
+              layout="fill"
+              src={womensbanner}
+              className="block"
+              alt="..."
+            />
+          </div>
           <div className="carousel-caption hidden md:block absolute text-center">
-            <h5 className="text-xl">Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5 className="text-xl text-[#3e3c3c]">Ladies drip</h5>
           </div>
         </div>
         <div className="carousel-item relative float-left w-full">
-          <img
-            src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-            className="block w-full"
-            alt="..."
-          />
+          <div className="w-full h-52 sm:h-72 md:h-[22rem] lg:h-[29rem] xl:h-[43rem]">
+            <Image
+              layout="fill"
+              src={kidsbanner}
+              className="block"
+              alt="..."
+            />
+          </div>
           <div className="carousel-caption hidden md:block absolute text-center">
-            <h5 className="text-xl">Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5 className="text-xl text-[#3e3c3c]">Stylish Kids</h5>
+          </div>
+        </div>
+        <div className="carousel-item relative float-left w-full">
+          <div className="w-full h-52 sm:h-72 md:h-[22rem] lg:h-[29rem] xl:h-[43rem]">
+            <Image
+              layout="fill"
+              src={womensbanner2}
+              className="block"
+              alt="..."
+            />
+          </div>
+          <div className="carousel-caption hidden md:block absolute text-center">
+            <h5 className="text-xl">Girls, top, girls!</h5>
+          </div>
+        </div>
+        <div className="carousel-item relative float-left w-full">
+          <div className="w-full h-52 sm:h-72 md:h-[22rem] lg:h-[29rem] xl:h-[43rem]">
+            <Image
+              layout="fill"
+              src={mensbanner2}
+              className="block"
+              alt="..."
+            />
+          </div>
+          <div className="carousel-caption hidden md:block absolute text-center">
+            <h5 className="text-xl">Kings Fashion</h5>
           </div>
         </div>
       </div>

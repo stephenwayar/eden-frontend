@@ -5,7 +5,7 @@ import shield from '../../public/assets/images/shield.png'
 
 export default function ServiceLabel() {
   return(
-    <div className="bg-[#F5F5F7] px-8 overflow-x-auto flex md:justify-center space-x-9 xl:space-x-32 py-3 text-sm text-[#4A5568] font-light">
+    <div className="bg-[#F5F5F7] px-8 no-scrollbar overflow-x-auto flex md:justify-center space-x-9 xl:space-x-32 py-3 text-sm text-[#4A5568] font-light">
       <div className="flex space-x-4">
         <Image src={shipping} width={30} height={20}/>
 
