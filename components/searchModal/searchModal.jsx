@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import Image from "next/image"
 import cancel from '../../public/assets/images/Cancle Button.png'
 

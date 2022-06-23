@@ -4,6 +4,7 @@ import Nav from '../components/nav/nav'
 import Label from '../components/label/label'
 import ServiceLabel from '@components/serviceLabel/serviceLabel'
 import Carousel from '@components/carousel/caeousel'
+import ShopLinks from '@components/shoplinks/shoplinks'
 
 export default function Home() {
   return (
@@ -26,6 +27,10 @@ export default function Home() {
       
       <div>
         <Carousel />
+      </div>
+
+      <div>
+        <ShopLinks />
       </div>
     </div>
   )
