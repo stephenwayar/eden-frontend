@@ -29,7 +29,7 @@ export default function Nav(){
             </a>
           </Link>
 
-          <Link href='/signin'>
+          <Link href='/auth/signin'>
             <a className="hover:cursor-pointer">
               <Icon icon="iconoir:profile-circled" color="#056424" width="25" height="25" />
             </a>  
@@ -58,7 +58,7 @@ export default function Nav(){
               </a>
             </Link>
 
-            <Link href='/signin'>
+            <Link href='/auth/signin'>
               <a className="hover:cursor-pointer">
                 <Icon icon="iconoir:profile-circled" color="#056424" width="25" height="25" />
               </a>  
