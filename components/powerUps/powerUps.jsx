@@ -24,7 +24,7 @@ export default function PowerUps() {
           </div>
 
           <div className="border-[#C4C4C4] border-b-2 sm:border-r-2 md:sm:border-r-0 p-14">
-          `<div className='w-[5rem] h-14 mx-auto'>
+            <div className='w-[5rem] h-14 mx-auto'>
               <Image className="mx-auto" src={brand3} />
             </div>
           </div>
@@ -48,8 +48,8 @@ export default function PowerUps() {
           </div>
         </div>
 
-        <div className="mt-20">
-          <h1 className="text-[#666C72] text-2xl">Eden, Online Shopping Service</h1>
+        <div className="mt-20 text-[#666C72]">
+          <h1 className="text-2xl">Eden, Online Shopping Service</h1>
 
           <p className="font-light mt-5">
             Eden is an online shopping destination. We pride ourselves in having everything you could possibly need for your fashion lifestyle at the best prices than anywhere else. We are a reliable shopping service where you can purchase all your fashionable clothing items. Men, women and kids, we got you all. And accessories? Still got you. What more? You can have them delivered directly to you. Shop online with great ease as you pay with our online payment service which guarantees you the safest online shopping payment method, allowing you to make stress free payments. Or you can pay when you receive your package, whatever works best for you.

@@ -12,7 +12,7 @@ export default function Footer() {
     <>
       <div>
         <div className="bg-[#323232] px-5 py-10">
-          <h1 className="font-bold text-transparent text-center text-xl lg:text-3xl bg-clip-text bg-gradient-to-r from-[#FF9A03]  to-[#A808F0]">SOCIAL LINKS</h1>
+          <h1 className="font-bold text-center text-xl lg:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-[#FF9A03]  to-[#A808F0]">SOCIAL LINKS</h1>
 
           <div className="flex justify-center space-x-3 mt-5">
             <Link passHref href="https://www.instagram.com/stephenwayar/">

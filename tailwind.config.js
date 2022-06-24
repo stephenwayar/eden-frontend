@@ -11,6 +11,10 @@ module.exports = {
         "women": "url('/assets/images/women.jpeg')",
         "kids": "url('/assets/images/kid.jpeg')",
         "bags": "url('/assets/images/shoppingBags.jpg')",
+        "girlPink": "url('/assets/images/pink-girl.jpeg')",
+        "blueBoy": "url('/assets/images/blueBoys.jpeg')",
+        "menSuit": "url('/assets/images/menHanger.jpg')",
+        "womanShop": "url('/assets/images/blackWoman.jpg')",
       }
     },
   },

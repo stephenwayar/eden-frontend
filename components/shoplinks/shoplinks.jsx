@@ -36,7 +36,7 @@ export default function ShopLinks() {
 
         <div>
           <div className='mt-4 md:mt-6 xl:mt-8'>
-            <Link href="/shop/kids">
+            <Link href="/shop/kids/boys">
               <div className="overflow-hidden rounded-lg cursor-pointer w-full h-52 sm:h-72 md:h-[20rem] lg:h-[25rem]">
                 <div className="bg-kids h-52 sm:h-72 md:h-[20rem] lg:h-[25rem] hover:scale-125 rounded-lg w-full bg-cover bg-center transition duration-[2500ms] delay-75 ease-linear pt-[7rem] sm:pt-40 md:pt-48 lg:pt-64 xl:pt-52">
                   <h1 className='font-bold text-white text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-center'>KIDS</h1>
