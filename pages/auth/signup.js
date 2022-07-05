@@ -19,7 +19,6 @@ export default function Signup() {
   const handlePasswordChange = e => setPasswordInput(e.target.value)
   const handleConfirmPasswordChange = e => setConfirmPasswordInput(e.target.value)
 
-
   const togglePassword = () => {
     if(passwordType === 'password') {
       return setPasswordType('text')
