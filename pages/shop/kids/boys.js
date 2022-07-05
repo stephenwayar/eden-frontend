@@ -24,6 +24,8 @@ export default function Boys() {
         <div>
           <ServiceLabel />
         </div>
+
+        <div className="text-3xl text-[#4A5568] text-center p-10 font-bold">KIDS-BOYS PAGE</div>
       </div>
     </div>
   )

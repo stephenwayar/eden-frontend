@@ -9,7 +9,7 @@ export default function Error404() {
     <>
       <div className='w-[90%] max-w-[85rem] 2xl:max-w-[90rem] mx-auto'>
         <Head>
-          <title>404 | Page not found</title>
+          <title>Page not found</title>
           <link rel="shortcut icon" href="/assets/images/favicon.png" />
         </Head>
 
@@ -23,7 +23,7 @@ export default function Error404() {
           </div>
 
           <div className='text-center'>
-            <h1 className='font-bold text-xl lg:text-2xl font-mono text-[#056424]'>LOOKS LIKE YOU'RE LOST</h1>
+            <h1 className='font-bold text-xl lg:text-2xl font-mono text-[#4A5568]'>LOOKS LIKE YOU'RE LOST</h1>
 
             <p className='mt-3 font-light lg:text-lg text-[#3d3b3b]'>The page that you are looking for is not available</p>
           </div>
