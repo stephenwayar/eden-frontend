@@ -20,6 +20,7 @@
     "react-intl-tel-input": "^8.2.0",
     "react-router-dom": "^6.3.0",
     "react-tabs": "^5.1.0",
+    "react-tooltip": "^4.2.21",
     "tw-elements": "^1.0.0-alpha12"
   },
   "devDependencies": {

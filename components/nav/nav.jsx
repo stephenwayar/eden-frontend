@@ -1,14 +1,13 @@
 import Logo from "@components/logo/logo"
 import Link from 'next/link'
 import SearchBar from "@components/searchBar/searchBar"
-import { Icon } from '@iconify/react';
+import { Icon } from '@iconify/react'
 import { useState } from "react"
 
 export default function Nav(){
   const [toggle, setToggle] = useState(false)
 
   const toggleNav = () => setToggle(!toggle)
-
   return(
     <nav className="w-[90%] max-w-[85rem] 2xl:max-w-[90rem] mx-auto py-5">
       <div className="flex justify-between">
@@ -34,6 +33,12 @@ export default function Nav(){
               <Icon icon="iconoir:profile-circled" color="#056424" width="25" height="25" />
             </a>  
           </Link>
+
+          <div className="w-fit hidden">
+            <button>
+              <Icon icon="ant-design:logout-outlined" color="#056424" width="25" height="25" />
+            </button>
+          </div>
         </div>
 
         <div className="mt-1 sm:hidden">
@@ -63,6 +68,12 @@ export default function Nav(){
                 <Icon icon="iconoir:profile-circled" color="#056424" width="25" height="25" />
               </a>  
             </Link>
+
+            <div className="w-fit hidden">
+              <button>
+                <Icon icon="ant-design:logout-outlined" color="#056424" width="25" height="25" />
+              </button>
+            </div>
           </div>
         </div>
       </div>

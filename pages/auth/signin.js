@@ -6,6 +6,7 @@ import Link from "next/link"
 import truck from "../../public/assets/images/deliveryTruck.png"
 import bitcoin from "../../public/assets/images/bitncoin_cash.png"
 import refund from "../../public/assets/images/refund_policy.png"
+import google from '../../public/assets/images/google-icon.png'
 
 export default function Signin() {
   const [passwordType, setPasswordType] = useState("password")
@@ -57,7 +58,7 @@ export default function Signin() {
               <div className="absolute bottom-[35%] w-full">
                 <div className="flex justify-center w-full">
                   <div className="relative rounded-full h-60 xl:h-80 xl:w-96 w-80">
-                    <Image className="rounded-full" src={truck} layout="fill" />
+                    <Image className="rounded-full" priority={true} src={truck} layout="fill" />
                   </div>
                 </div>
  
@@ -71,7 +72,7 @@ export default function Signin() {
               <div className="absolute bottom-[35%] w-full">
                 <div className="flex justify-center w-full">
                   <div className="relative rounded-full h-60 xl:h-80 xl:w-96 w-80">
-                    <Image className="rounded-full" src={bitcoin} layout="fill" />
+                    <Image className="rounded-full" priority={true} src={bitcoin} layout="fill" />
                   </div>
                 </div>
  
@@ -85,7 +86,7 @@ export default function Signin() {
               <div className="absolute bottom-[35%] w-full">
                 <div className="flex justify-center w-full">
                   <div className="relative rounded-full h-60 xl:h-80 xl:w-96 w-80">
-                    <Image className="rounded-full" src={refund} layout="fill" />
+                    <Image className="rounded-full" priority={true} src={refund} layout="fill" />
                   </div>
                 </div>
  
@@ -141,14 +142,24 @@ export default function Signin() {
                 </Link>
               </div>
 
-              <div className="mt-6">
-                <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className="w-full bg-[#A3DC22] h-12 text-sm text-white px-3 rounded-sm transition duration-75 delay-75 ease-linear hover:shadow-md py-2 hover:bg-[#056424]">
+              <div className="mt-6 lg:flex lg:space-x-4">
+                <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className="w-full bg-[#056424] h-12 text-sm text-white px-3 rounded-sm transition duration-75 delay-75 ease-linear hover:shadow-md py-2 hover:bg-[#04541f]">
                   Sign in
+                </button>
+
+                <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className="w-full mt-4 lg:mt-0 border-2 hover:bg-gray-50 border-[#464646] h-12 text-sm text-white px-3 rounded-sm transition duration-75 delay-75 ease-linear py-[0.35rem]">
+                  <div className="justify-center flex space-x-2">
+                    <div className="w-8 h-8 mb-1 relative">
+                      <Image src={google} layout="fill" />
+                    </div>
+                    
+                    <span className="text-[#464646] mt-[0.32rem]">Continue with google</span>
+                  </div>
                 </button>
               </div>
 
               <div>
-                <p className="text-sm text-[#464646] mt-7 text-center">No account yet? <Link href="/auth/signup"><span className="text-[#A3DC22] hover:text-[#056424] hover:underline cursor-pointer">Register here</span></Link></p>
+                <p className="text-sm text-[#464646] mt-7 text-center">No account yet? <Link href="/auth/signup"><span className="text-[#056424] hover:underline cursor-pointer">Register here</span></Link></p>
               </div>
             </form>
           </div>
