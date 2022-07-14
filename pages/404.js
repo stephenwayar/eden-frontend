@@ -30,7 +30,7 @@ export default function Error404() {
 
           <div className='text-center mt-3'>
             <Link href="/">
-              <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"  className='px-4 py-2 bg-[#A3DC22] hover:bg-[#056424] transition duration-75 delay-75 ease-linear rounded-md hover:shadow-md text-white'>
+              <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className='px-6 py-2 bg-[#056424] hover:bg-[#04541f] transition duration-75 delay-75 ease-linear rounded-md hover:shadow-md text-white'>
                 Go Home
               </button>
             </Link>

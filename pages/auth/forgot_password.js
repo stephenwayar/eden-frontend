@@ -45,7 +45,7 @@ export default function ForgotPassword() {
               <div className="absolute bottom-[35%] w-full">
                 <div className="flex justify-center w-full">
                   <div className="relative rounded-full h-60 xl:h-80 xl:w-96 w-80">
-                    <Image className="rounded-full" src={truck} layout="fill" />
+                    <Image className="rounded-full" priority={true} src={truck} layout="fill" />
                   </div>
                 </div>
  
@@ -59,7 +59,7 @@ export default function ForgotPassword() {
               <div className="absolute bottom-[35%] w-full">
                 <div className="flex justify-center w-full">
                   <div className="relative rounded-full h-60 xl:h-80 xl:w-96 w-80">
-                    <Image className="rounded-full" src={bitcoin} layout="fill" />
+                    <Image className="rounded-full" priority={true} src={bitcoin} layout="fill" />
                   </div>
                 </div>
  
@@ -73,7 +73,7 @@ export default function ForgotPassword() {
               <div className="absolute bottom-[35%] w-full">
                 <div className="flex justify-center w-full">
                   <div className="relative rounded-full h-60 xl:h-80 xl:w-96 w-80">
-                    <Image className="rounded-full" src={refund} layout="fill" />
+                    <Image className="rounded-full" priority={true} src={refund} layout="fill" />
                   </div>
                 </div>
  

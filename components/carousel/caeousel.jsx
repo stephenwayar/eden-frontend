@@ -47,12 +47,12 @@ export default function Carousel() {
           <div className="w-full h-52 sm:h-72 md:h-[22rem] lg:h-[29rem] xl:h-[43rem]">
             <Image
               layout="fill"
+              priority={true}
               src={mensbanner}
               className="block"
               alt="..."
             />
           </div>
-
           <div className="carousel-caption hidden md:block absolute text-center">
             <h5 className="text-xl">Wardrobe Refresh</h5>
           </div>
@@ -60,6 +60,7 @@ export default function Carousel() {
         <div className="carousel-item relative float-left w-full">
           <div className="w-full h-52 sm:h-72 md:h-[22rem] lg:h-[29rem] xl:h-[43rem]">
             <Image
+              priority={true}
               layout="fill"
               src={womensbanner}
               className="block"
@@ -74,6 +75,7 @@ export default function Carousel() {
           <div className="w-full h-52 sm:h-72 md:h-[22rem] lg:h-[29rem] xl:h-[43rem]">
             <Image
               layout="fill"
+              priority={true}
               src={kidsbanner}
               className="block"
               alt="..."
@@ -87,6 +89,7 @@ export default function Carousel() {
           <div className="w-full h-52 sm:h-72 md:h-[22rem] lg:h-[29rem] xl:h-[43rem]">
             <Image
               layout="fill"
+              priority={true}
               src={womensbanner2}
               className="block"
               alt="..."
@@ -100,6 +103,7 @@ export default function Carousel() {
           <div className="w-full h-52 sm:h-72 md:h-[22rem] lg:h-[29rem] xl:h-[43rem]">
             <Image
               layout="fill"
+              priority={true}
               src={mensbanner2}
               className="block"
               alt="..."

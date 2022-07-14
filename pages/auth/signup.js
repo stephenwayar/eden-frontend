@@ -69,7 +69,7 @@ export default function Signup() {
               <div className="absolute bottom-[35%] w-full">
                 <div className="flex justify-center w-full">
                   <div className="relative rounded-full h-60 xl:h-80 xl:w-96 w-80">
-                    <Image className="rounded-full" src={truck} layout="fill" />
+                    <Image className="rounded-full" priority={true} src={truck} layout="fill" />
                   </div>
                 </div>
  
@@ -83,7 +83,7 @@ export default function Signup() {
               <div className="absolute bottom-[35%] w-full">
                 <div className="flex justify-center w-full">
                   <div className="relative rounded-full h-60 xl:h-80 xl:w-96 w-80">
-                    <Image className="rounded-full" src={bitcoin} layout="fill" />
+                    <Image className="rounded-full" priority={true} src={bitcoin} layout="fill" />
                   </div>
                 </div>
  
@@ -97,7 +97,7 @@ export default function Signup() {
               <div className="absolute bottom-[35%] w-full">
                 <div className="flex justify-center w-full">
                   <div className="relative rounded-full h-60 xl:h-80 xl:w-96 w-80">
-                    <Image className="rounded-full" src={refund} layout="fill" />
+                    <Image className="rounded-full" priority={true} src={refund} layout="fill" />
                   </div>
                 </div>
  
@@ -188,13 +188,13 @@ export default function Signup() {
               </div>
 
               <div className="mt-6">
-                <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className="w-full bg-[#A3DC22] h-12 text-sm text-white px-3 rounded-sm transition duration-75 delay-75 ease-linear hover:shadow-md py-2 hover:bg-[#056424]">
+                <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className="w-full bg-[#056424] h-12 text-sm text-white px-3 rounded-sm transition duration-75 delay-75 ease-linear hover:shadow-md py-2 hover:bg-[#04541f]">
                   Sign up
                 </button>
               </div>
 
               <div>
-                <p className="text-sm text-[#464646] mt-7 text-center">Already have an account? <Link href="/auth/signin"><span className="text-[#A3DC22] hover:text-[#056424] hover:underline cursor-pointer">Signin</span></Link></p>
+                <p className="text-sm text-[#464646] mt-7 text-center">Already have an account? <Link href="/auth/signin"><span className="text-[#056424] hover:underline cursor-pointer">Signin</span></Link></p>
               </div>
             </form>
           </div>
